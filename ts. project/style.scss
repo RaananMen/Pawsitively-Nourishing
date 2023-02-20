@@ -25,6 +25,7 @@ header {
     }
 }
 
+/* Main-Recipes Styling */
 .main-recipes {
     display: flex;
     flex-direction: column;
@@ -140,6 +141,54 @@ header {
                 &:hover {
                     text-decoration: underline;
                 }
+            }
+        }
+    }
+}
+
+/* Main-About-Us Styling */
+.main-about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .employees {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+
+        .employee {
+            background-color: #f7f7f7;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            padding: 1.5rem;
+
+            h2 {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+
+            img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
             }
         }
     }

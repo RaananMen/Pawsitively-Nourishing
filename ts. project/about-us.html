@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Deferring the loading of scripts -->
+        <script src="./dist/model.js" defer></script>
+        <script src="./dist/view.js" defer></script>
+        <script src="./dist/control.js" defer></script>
+        <script src="./dist/helpers.js" defer></script>
+        <script src="./dist/index.js" defer></script>
+        <!-- Linking the stylesheet for the document -->
+        <link rel="stylesheet" type="text/css" href="dist/style.css">    
+    <title>Pawsitively Noureshing - For your every Animal food needs</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="animal-food.html">Animal Food</a></li>
+              <li><a href="nutritional-info.html">Nutritional Information</a></li>
+              <li><a href="recipes.html">Recipes and Benefits</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+            </ul>
+          </nav>          
+    </header>
+        <main class="main-about-us">
+            <h1>About Us</h1>
+                <p>We are a team of passionate individuals who are dedicated to providing the best products and services to our customers. Get to know our team:</p>
+              
+                <div class="employees">
+                  <div class="employee">
+                    <img src="employee1.jpg" alt="Employee 1">
+                    <h2>Employee 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac est mi. Integer vestibulum orci sed sapien fringilla, sit amet varius massa maximus. </p>
+                  </div>
+              
+                  <div class="employee">
+                    <img src="employee2.jpg" alt="Employee 2">
+                    <h2>Employee 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac est mi. Integer vestibulum orci sed sapien fringilla, sit amet varius massa maximus. </p>
+                  </div>
+              
+                  <div class="employee">
+                    <img src="employee3.jpg" alt="Employee 3">
+                    <h2>Employee 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac est mi. Integer vestibulum orci sed sapien fringilla, sit amet varius massa maximus. </p>
+                  </div>
+              
+                  <div class="employee">
+                    <img src="employee4.jpg" alt="Employee 4">
+                    <h2>Employee 4</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac est mi. Integer vestibulum orci sed sapien fringilla, sit amet varius massa maximus. </p>
+                  </div>
+                </div>              
+        </main>
+    <footer class="footer">
+        <form action="/submit-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          
+            <button type="submit">Submit</button>
+          </form>          
+    </footer>
+</body>
+</html>

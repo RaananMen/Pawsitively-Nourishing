@@ -20,6 +20,7 @@ header nav ul li a {
   font-size: 18px;
 }
 
+/* Main-Recipes Styling */
 .main-recipes {
   display: flex;
   flex-direction: column;
@@ -121,6 +122,48 @@ header nav ul li a {
 }
 .main-recipes .food-types .food-type li:hover {
   text-decoration: underline;
+}
+
+/* Main-About-Us Styling */
+.main-about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.main-about-us h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.main-about-us .employees {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.main-about-us .employees .employee {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  padding: 1.5rem;
+}
+.main-about-us .employees .employee h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.main-about-us .employees .employee img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.main-about-us .employees .employee p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 /* Footer Styling */
