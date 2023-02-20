@@ -1,0 +1,162 @@
+/* Header Styling */
+header {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {
+  margin-right: 20px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.main-recipes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.main-recipes h1 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.main-recipes h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.main-recipes .recipes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.main-recipes .recipes .recipe {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  text-align: center;
+}
+.main-recipes .recipes .recipe p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.main-recipes .recipes .recipe li {
+  color: #007bff;
+  text-decoration: none;
+}
+.main-recipes .recipes .recipe li:hover {
+  text-decoration: underline;
+}
+.main-recipes .benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.main-recipes .benefits .benefit {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  width: 600px;
+  text-align: center;
+}
+.main-recipes .benefits .benefit p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.main-recipes .benefits .benefit li {
+  color: #007bff;
+  text-decoration: none;
+}
+.main-recipes .benefits .benefit li:hover {
+  text-decoration: underline;
+}
+.main-recipes .food-types {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.main-recipes .food-types .food-type {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  width: 600px;
+  text-align: center;
+}
+.main-recipes .food-types .food-type p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.main-recipes .food-types .food-type li {
+  color: #007bff;
+  text-decoration: none;
+}
+.main-recipes .food-types .food-type li:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+footer form input,
+footer form textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+footer form button {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+footer form button:hover {
+  background-color: #303f9f;
+}
